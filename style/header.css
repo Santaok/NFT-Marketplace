@@ -37,7 +37,7 @@
         }
     .header__nav__sing{
      border-radius: var(--button--border);
-    padding: 0vw 1.2229vw 0vw 1.8229vw ;
+    padding: 0vw 1.2229vw 0vw 1.8229vw;
     width: 8.3333vw;
     height: 3.4250vw;
     background-color: var(--button-back);
@@ -51,7 +51,7 @@
     }
     .header__nav__sing:hover{
         border-radius: var(--button--border);
-       padding: 0vw 1.2229vw 0vw 1.8229vw ;
+       padding: 0vw 1.2229vw 0vw 1.8229vw;
        width: 8.3333vw;
        height: 3.4250vw;
        background-color: var(--button--back--hover);
