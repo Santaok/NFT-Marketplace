@@ -86,12 +86,7 @@ transform: scale(0.95);
 }
 .main__card__text{
     border-radius: 20px;
-width:  5.7292vw;
-<<<<<<< HEAD
-height: 5.7292vw;
-=======
-height: 5.7292vw; 
->>>>>>> 8393bf7ae3470a23eda8c564dcdd41f1c55ca91e
+
 margin-top: 0.03vw;
 background-color: var(--button-back);
 text-align: center;
