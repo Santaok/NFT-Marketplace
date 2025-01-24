@@ -47,7 +47,9 @@
     font-size: var(--font--size--p);
     line-height: 140%;
     text-align: end;
-    transition: all 200ms ease-in-out
+    transition: all 200ms ease-in-out;
+    z-index: -1;
+    
     }
     .header__nav__sing:hover{
         border-radius: var(--button--border);
@@ -61,11 +63,10 @@
        font-size: var(--font--size--p);
        line-height: 140%;
        text-align: end;
+       z-index: -1;
        }
     .svg__sign__up{
-     position: absolute;
-     top: 3.54vw;
-    right:9.2vw;
+    display: flex;
     }
     .hero{
         margin-top: 10vw;
@@ -186,4 +187,10 @@
     display: flex;
     align-items: center;
     column-gap: 10px;
+    }
+    .header__nav__buttons{
+        display: flex;
+    }
+    .logo__svg{
+        position: relative;
     }
