@@ -1,0 +1,182 @@
+.creators__hero__button:hover{
+    display: flex;
+    justify-content: center;
+    border: 2px  solid var(--button-back);
+    text-align: center;
+    border-radius: 20px;
+    height: 60px;
+    padding: 0px 50px;
+    margin-top: 3vw;
+    margin-right: 1.2vw;
+    gap: 6px;
+transform: scaleX(1.1);
+cursor:pointer;
+  
+}
+.main__card__text:hover{
+    transform: scale(0.95);
+}
+
+.main__card__img__mini__item:hover{
+    transform: scale(1.2);
+    }
+
+    .main__card__img__item:hover {
+        border-radius: 20px;
+        width: 22.7083vw;
+        height: 22.7083vw;
+        transform: scale(0.95);
+    
+    }
+    .hero__button:hover{
+        border-radius: var(--button--border);
+        padding: 1.1458vw 2.8646vw 1.1458vw 4.4792vw;
+        background-color: var(--button--back--hover);
+        color:rgb(199, 199, 199);
+        border: none;
+        font-weight: 600;
+        font-size: var(--font--size--p);
+        text-align: center;
+        transition: all 200ms ease-in-out
+    }
+    .svg__sign__up:hover{
+        display: flex;
+        align-items: center;
+        border-radius: var(--button--border);
+        padding: 0px 0px 0px 20px;
+        background-color: var(--button-back);
+        color:aliceblue;
+        border: none;
+        font-weight: 600;
+        font-size: var(--font--size--p);
+        line-height: 140%;
+        text-align: end;
+        z-index: -1;
+        transform: scaleX(0.95);
+    
+        }
+       .header__nav__button:hover{
+        border: none;
+         background-color: #39383800;
+         color: rgb(194, 99, 99);
+         font-weight: 600;
+        font-size: 1.1333vw;
+        line-height: 140%;
+        text-align: center;
+        column-gap: 0.7813vw;
+        padding: 0vw 1.3021vw;
+        }
+     .creators__users__profile:hover{
+        background-color: var(--background--color--object);
+        border-radius: 20px;
+        display: flex   ;
+            width: 270px;
+            align-items: flex-start;
+            justify-content: flex-end;
+            padding: 20px;
+            padding-left: 0;
+            padding-bottom: 5px;
+            transform: scale(0.95);
+       
+    }
+    .avatar__animals:hover{
+        width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    transform: scale(1.2);
+    
+}
+.Categories__block__item:hover{
+    background-color: var( --background--color--object);
+    border-radius: 20px;
+    transform: scale(0.95);
+    
+}
+.discover__here__button:hover {
+    display: flex;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 20px;
+        border: 2px solid var(--button-back);
+        text-align: center;
+        border-radius: 20px;
+        height: 60px;
+        width: 150px;
+        cursor: pointer;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;      
+        margin-bottom: 3vw;
+        transform: scaleX(1.1);
+}.discover__here__img__item:hover{
+    background-color: var(--background--color--object);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    transform: scale(0.95);
+    
+}
+.Mashrooms__back__button:hover{
+    border-radius: 20px;
+padding: 22px ;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+background-color: var(--font--color);
+width: 168px;
+transform: scaleX(1.1);
+}
+.find__block__box__item:hover{
+    background-color: #3B3B3B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 330px;
+    transform: scale(0.95);
+}
+.email__sub:hover{
+    align-items: center;
+    background-color: var(--button-back);
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex
+;
+    gap: 12px;
+    height: 60px;
+    justify-content: flex-end;
+    margin-bottom: -16.00px;
+    margin-top: -16.00px;
+    mix-blend-mode: normal;
+    padding: 0px 50px;
+    pointer-events: auto;
+    margin-left: -4.2vw;
+    transform: scale(0.95);
+    width: fit-content;
+}
+.footer__input__sub__button:hover{
+    align-items: center;
+    background-color: var(--button-back);
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex
+;
+    gap: 12px;
+    height: 60px;
+    justify-content: flex-end;
+    margin-bottom: -16.00px;
+    margin-top: -16.00px;
+    mix-blend-mode: normal;
+    padding: 0px 50px;
+    pointer-events: auto;
+    margin-left: -4.2vw;
+    width: fit-content;
+    color: aliceblue;
+    transform: scale(0.95);
+}
+.footer__link:hover{
+    color: rgb(194, 99, 99);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: var(--font--family--work);
+}

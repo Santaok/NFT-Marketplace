@@ -1,0 +1,44 @@
+.notActive{
+    position: absolute;
+    z-index: 5;
+top: 69vw;
+    left: 12vw;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    display: none;
+   
+}
+.Active{
+    position: absolute;
+    z-index: 5;
+    top: 69vw;
+    left: 12vw;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+    display: block;
+}
+.sher{
+  position: absolute;
+  z-index: 5;
+  width: 10vw;
+  height: 10vw;
+left: 16vw;
+margin-top: 1vw;
+  border-radius: 80px;
+  display: none;
+}
+.number__user{
+    cursor: pointer;
+}
+.SherActive{
+    position: absolute;
+    z-index: 5;
+    width: 10vw;
+    height: 10vw;
+    left: 16vw;
+    margin-top: 1vw;
+    border-radius: 80px;
+    display: block;
+}
