@@ -104,4 +104,51 @@ stopchina.addEventListener("click", () => {
     china.pause()
 })
 
+var bee = document.getElementById("sher")
+document.addEventListener("mousemove", getMouse)
 
+bee.style.position = "absolute"
+var beepos = {
+ x: 0,
+ y: 0
+};
+
+var mouse = {
+ x: 0,
+ y: 0
+}; 
+
+var dir = "right"
+
+function getMouse(e) {
+ mouse.x = e.pageX;
+ mouse.y = e.pageY;
+ if (mouse.x > beepos.x) {
+  dir = "right"
+ } else {
+  dir = "left"
+ }
+}
+
+function followMouse() {
+ var distX = mouse.x - beepos.x
+ var distY = mouse.y - beepos.y
+
+
+ beepos.x += distX / 10
+ beepos.y += distY / 10
+
+ bee.style.left = beepos.x + "px"
+ bee.style.top = beepos.y + "px"
+ 
+ if (dir == "right") {
+  bee.setAttribute("class", "right")
+ } else {
+  bee.setAttribute("class", "left")
+ }
+
+ requestAnimationFrame(followMouse)
+}
+
+
+followMouse()
