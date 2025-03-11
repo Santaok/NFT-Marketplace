@@ -1,0 +1,31 @@
+@import url(./NFT-Marketplace/font/font.css);
+@import url(./NFT-Marketplace/style/header.css);
+@import url(./NFT-Marketplace/style/main.css);
+@import url(./NFT-Marketplace/style/users.css);
+@import url(./NFT-Marketplace/style/hover.css);
+@import url(./NFT-Marketplace/style/discover.css);
+@import url(./NFT-Marketplace/style/mem.css);
+
+
+
+:root{
+
+    --button-back: #A259FF;
+    --button--back--hover: #6b3aac;
+    --button--border: 1.4021vw; 
+    --font--size--p: 1.0417vw;
+    --font--size--h4: 1.3542vw;  /*22px*/
+    --font--size--h3:1.3021vw;
+    --font--size--title: 2.9688vw;
+    --font--color: #fff;
+    --background--color--object: #3B3B3B;
+    --font--family--work: "work__space__regular";
+    --font--family--monospace: "space__mono__regular"
+    }
+    
+    body{
+        margin-left: 7.25vw;
+        margin-right: 7.25vw;
+        background-color: #2B2B2B;
+    }
+    
